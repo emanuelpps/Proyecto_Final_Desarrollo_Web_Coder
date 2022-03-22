@@ -1,123 +1,132 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Duo Digital</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='../css/stylesheet.css'>
-</head>
-<body>
-    <!--menu-->
-    <header>
-       
-        <div class="menu">    
-           
-                <a href="index.html"> 
-                <img src="../img/marca duodigital-0222refrgrgtrgrg.png" alt="logo" class="logo"> 
-                </a>
-             <nav> 
-                <ul>    
-                    <li class="hvr-grow-shadow">
-                        <a href="../index.html">INICIO</a>
-                    </li>
-                    <li class="hvr-grow-shadow">
-                        <a href="servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="hvr-grow-shadow">
-                        <a href="nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li class="hvr-grow-shadow">
-                        <a href="sumate.html">SUMATE</a>
-                    </li>
-                    <li class="hvr-grow-shadow">
-                        <a href="contactanos.html">CONTACTANOS</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        </header>
-        <!--cierra menu-->
-<main>
-    <!--nostros-->
-<div class="info1_Nosotros">    
-    <section>
-        <article>
-            <h3 class="info1_Nosotros__titulo textCenter">
-                Nosotros
-            </h3>
-        </article>
-        <article>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sint quod repellendus aperiam perferendis, recusandae nobis praesentium blanditiis aliquid ullam explicabo dignissimos autem impedit dolorum est quae soluta, alias maiores?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rem eveniet dolore eius eos quos ullam quibusdam reprehenderit delectus porro, consectetur eum atque officia esse nesciunt omnis modi alias error?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus ducimus eum impedit neque exercitationem quas nesciunt itaque voluptas enim iste culpa nihil, atque officia expedita quasi, optio mollitia nemo!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero eos debitis ducimus repellendus ipsa error temporibus eius iure eveniet, saepe modi. Quam, autem numquam quibusdam asperiores odit magnam. Laudantium.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime esse at distinctio, quidem nam, ab ad cum voluptatibus quasi fuga porro veritatis, vitae neque! Necessitatibus officiis vitae dolor laboriosam est.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores, molestiae quae, id saepe ratione rem ipsum adipisci autem velit, enim omnis accusamus. Assumenda, doloremque eligendi accusamus debitis eum quae!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut vitae vero distinctio laborum non quod aspernatur rem quia tempora. Nostrum qui in eius harum nisi eum vel corporis ipsum?
-            </p>
-        </article>
-    </section>
-</div>
-<div class="info3_Nosotros">    
-    <section>
-        <article class="info3_Nosotros__articulo textCenter">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sed totam consequatur adipisci porro impedit eveniet voluptatum nisi numquam ullam? Dolore sit dolor earum molestias delectus veniam nemo, provident quibusdam.</p>
-        </article>
-    </section>
-    <section>
-        <article class="info4_Nosotros__articulo textCenter">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint possimus, unde sed, itaque est dolorem corporis at libero ea natus praesentium qui sequi ipsam! Aperiam eos non qui. Optio?</p>
-        </article>
-    </section>
-</div>
-    <!--nosotros-->
-    <!--Formulario de contacto-->
-    <section>
-        <article class="textCenter">
-            <h3>¿Te ayudamos?</h3>
-            <form action="#">
-                <label for="name">Nombre
-                    <input type="text" placeholder="Nombre" name="Nombre"><br>
-                </label>
-                <label for="empresa">Empresa
-                    <input type="text" placeholder="Empresa" name="Empresa"><br>
-                </label>
-                <label for="email">Email
-                    <input type="email" placeholder="aaa@gmail.com" name="email"><br>
-                </label>
-                <label for="ubicacion">Ubicación
-                    <input type="text" placeholder="ubicacion" name="ubicacion"><br>
-                </label>
-                <label for="contanos">Contános en que podemos ayudarte<br>
-                    <textarea placeholder="contanos que necesitas"></textarea>
-                </label>
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Resetear">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            </form>
-    <!--Fin Formulario-->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' href='../css/stylesheet.css'>
+
+    <title>Duo Digital</title>
+  </head>
+  <body>
+
+<!-- Comienzo Nav Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="botonera">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+              <img src="../img/marca-duodigital-0222refrgrgtrgrg.svg">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sumate.html">SUMATE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">CONTACTANOS</a>
+              </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Fin Nav Bar-->
+
+<!-- Comienza Nosotros -->
+
+<section class="container">
+    <div >
+        <article>
+            <h3 class="text-center pt-5"> NOSOTROS </h3>
         </article>
-    </section>
-</main>
-<!--footer-->
-<footer class="textCenter">
-    <div>
-        <section class="footer_1">
-        <a href="index.html"> 
-            <img src="../img/marca duodigital-0222refrgrgtrgrg.png" alt="logo" class="LogoDuo"> 
-            </a>
-        <a href="https://www.facebook.com/Duodigitalroca"> 
-                <img src="../img/LogoFacebook.png" alt="logo" class="LogoFacebook"> 
-            </a>
-        <a href="https://www.instagram.com/duodigitalroca/"> 
-                <img src="../img/Instagram Logo.png" alt="logo" class="LogoInstagram"> 
-            </a>
-        </section>
     </div>
+</section>
+
+<section class="container">
+    <div class="row">
+        <article class="col-md-12 col-lg-6 mt-5 ">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo itaque iusto illo minima quia libero totam perferendis, pariatur repellat tempore, repudiandae ut quisquam eaque maxime, officiis earum similique ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rem, dignissimos inventore impedit aliquam maxime mollitia ullam ex? Tempora, ea officia. Repellendus aperiam doloremque quidem tempore ipsa animi, dolorum nulla?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, quo fugiat sequi aperiam veritatis impedit dignissimos exercitationem consequatur dolores excepturi nisi ipsam, eligendi eos obcaecati expedita repudiandae! Quos, distinctio minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam maiores perspiciatis vitae nesciunt autem earum. Soluta quae aut eligendi sed, ab error pariatur tempora, voluptatibus saepe id aliquid cum voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod maxime repudiandae velit ad dolorum veritatis enim! Deleniti obcaecati quia similique consectetur adipisci. Commodi hic quos esse praesentium perferendis laboriosam officiis.</p>
+        </article>
+        <article class="col-md-12 col-lg-6 mt-5">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo itaque iusto illo minima quia libero totam perferendis, pariatur repellat tempore, repudiandae ut quisquam eaque maxime, officiis earum similique ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rem, dignissimos inventore impedit aliquam maxime mollitia ullam ex? Tempora, ea officia. Repellendus aperiam doloremque quidem tempore ipsa animi, dolorum nulla?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, quo fugiat sequi aperiam veritatis impedit dignissimos exercitationem consequatur dolores excepturi nisi ipsam, eligendi eos obcaecati expedita repudiandae! Quos, distinctio minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam maiores perspiciatis vitae nesciunt autem earum. Soluta quae aut eligendi sed, ab error pariatur tempora, voluptatibus saepe id aliquid cum voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod maxime repudiandae velit ad dolorum veritatis enim! Deleniti obcaecati quia similique consectetur adipisci. Commodi hic quos esse praesentium perferendis laboriosam officiis.</p>
+        </article>
+    </div>
+</section>
+
+<!-- Termina Nosotros -->
+
+
+<!-- Comienza Formulario -->
+<section class="container mt-5">
+  <h3 class="text-center">
+    ¿Te Ayudamos?
+  </h3>
+  <h4 class="text-center">
+    Queremos saber sobre tu negocio y ayudarte a crecer
+  </h4>
+  <div class="form-floating ms-5 me-5 mb-3">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name">
+      <label for="floatingInput">Nombre</label>
+  </div>
+  <div class="form-floating ms-5 me-5 mb-3">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="name">
+      <label for="floatingPassword">Empresa</label>
+  </div>
+  <form class="form-floating ms-5 me-5 mb-3">
+    <input type="email" class="form-control" id="floatingInputValue" placeholder="nombre@ejemplo.com" value="nombre@ejemplo.com">
+    <label for="floatingInputValue">Email</label>
+  </form>
+  <div class="form-floating ms-5 me-5 mb-3">
+    <textarea class="form-control" placeholder="Comentarios" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">Contanos en que podemos ayudarte</label>
+  </div>
+</section>
+
+<!-- Fin Formulario -->
+
+<!-- Comienzo Footer -->
+
+<div class="col-md-12 py-5 text-center">
+  <div class="mb-5 ">
+
+    <!-- Facebook -->
+    <a class="fb-ic">
+      <img src="../img/facebook.svg" class="mr-md-5 mr-3 p-4 ">
+    </a>
+    
+    <!--Linkedin -->
+    <a class="li-ic">
+      <img src="../img/linkedin.svg" class="mr-md-5 mr-3 p-4">
+    </a>
+
+    <!--Instagram-->
+    <a class="ins-ic">
+      <img src="../img/instagram.svg" class="mr-md-5 mr-3 p-4">
+    </a>
+   
+  </div>
+</div>
+
     </footer>
-    <!--Footer-->    
-</body>
+    <!-- Footer -->
+
+<!-- Fin Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
