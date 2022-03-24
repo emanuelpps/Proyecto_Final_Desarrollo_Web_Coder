@@ -1,8 +1,17 @@
+
+
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+    font-family: 'Roboto';
+    
+    
+}
+
 h1,h2,h3,h4{
     font-family: 'Roboto', sans-serif;
+    color: rgba(255,255,255,255);
 }
 
 h1{
@@ -23,15 +32,168 @@ h4 {
     font-size: 1em;
 }
 
+nav{
+    background-color: rgba(255,255,255,255);
+}
+
+nav li a .btn{
+    margin-top: -5%;
+}
+
+p{
+    color: rgba(255,255,255,255);
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    background-color: rgb(43, 48, 48);
+}
+
+footer img{
+    background-color: rgba(255,255,255,255);
+    border-radius: 40%;
+}
+
+
+/*nav*/
+
+#botonera{
+    background-color: rgba(255,255,255,255);
+    
+}
+
+#botonera img{
+    width: 200px;
+}
+
+
+
+.flip-in-hor-top {
+	-webkit-animation: flip-in-hor-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-hor-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes flip-in-hor-top {
+    0% {
+      -webkit-transform: rotateX(-80deg);
+              transform: rotateX(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-in-hor-top {
+    0% {
+      -webkit-transform: rotateX(-80deg);
+              transform: rotateX(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+      nav div ul li a .btn{
+          display: none;
+      }
+    }
+
+    @media screen and (min-width: 991px){
+        .btn-mobile{
+           display: none;
+        }
+        
+    }
 
 /*nav*/
 
 
-
-    #botonera img{
-        width: 200px;
-    }
-
-#carousel-color{
-    color: black;
+/*body*/
+#mkt{
+    background-color: rgb(43, 48, 48);
 }
+
+#mkt img{
+    border-style:ridge
+}
+
+.clientes-color{
+    background-color: black;
+}
+
+.btn{
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+}
+
+/* Informacion duo digital*/
+
+
+  @media screen and (min-width: 991px){
+      .article-mobile{
+         display: none;
+      }
+      
+  }
+
+  @media screen and (max-width: 991px){
+    .article-desktop{
+       display: none;
+    }
+    
+}
+
+/* informacion duo digital*/
+
+/*clientes*/
+
+
+.clientes{
+    background-color: rgb(43, 48, 48);
+    margin-top: 60px;
+}
+
+.clientes h2{
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+.clientes img{
+    width: 100px;
+    height: 250px;
+    border-radius: 50%;
+   
+}
+
+/*clientes*/
+
+/*fin de body*/
+
+
+
+/*que hacemos*/
+
+.img-embudo{
+    width: 500px;
+}
+
+/*que hacemos*/
+
+
+/*donde encontrar a tus clientes*/
+
+#mkt-1{
+    background-color: rgb(26, 139, 157);
+}
+
+/*donde encontrar a tus clientes*/
