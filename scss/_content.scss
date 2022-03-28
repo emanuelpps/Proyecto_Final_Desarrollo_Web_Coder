@@ -1,0 +1,84 @@
+/*body*/
+body{
+    background-color: black;
+}
+
+#mkt{
+    background-color: rgb(43, 48, 48);
+}
+
+#mkt img{
+    border-style:ridge
+}
+
+.clientes-color{
+    background-color: black;
+}
+
+.btn{
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+}
+
+/* Informacion duo digital*/
+
+
+  @media screen and (min-width: 991px){
+      .article-mobile{
+         display: none;
+      }
+      
+  }
+
+  @media screen and (max-width: 991px){
+    .article-desktop{
+       display: none;
+    }
+    
+}
+
+/* informacion duo digital*/
+
+/*clientes*/
+
+
+.clientes{
+    background-color: rgb(43, 48, 48);
+    margin-top: 60px;
+}
+
+.clientes h2{
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+.clientes img{
+    width: 100px;
+    height: 250px;
+    border-radius: 50%;
+   
+}
+
+/*clientes*/
+
+/*fin de body*/
+
+
+
+/*que hacemos*/
+
+.img-embudo{
+    width: 500px;
+}
+
+/*que hacemos*/
+
+
+/*donde encontrar a tus clientes*/
+
+#mkt-1{
+    background-color: rgb(26, 139, 157);
+}
+
+/*donde encontrar a tus clientes*/

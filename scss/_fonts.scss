@@ -1,0 +1,40 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto';
+}
+
+$fontMain:'Roboto';
+
+$textColor: white;
+
+$textXl: 4em;
+$textLg: 3em;
+$textMd: 2em;
+$textSm: 1em;
+
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+    color: $secondaryColor;
+}
+
+h1{
+    font-size: $textXl;
+}
+
+h2{
+    font-size: $textLg;
+}
+
+h3{
+    font-size: $textMd;
+}
+
+h4{
+    font-size: $textSm;
+}
+
+p{
+    color: $secondaryColor;
+}
