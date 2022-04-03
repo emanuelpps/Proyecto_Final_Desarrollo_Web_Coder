@@ -5,36 +5,22 @@
     font-family: 'Roboto';
 }
 
-$fontMain:'Roboto';
-
-$textColor: white;
-
-$textXl: 4em;
-$textLg: 3em;
-$textMd: 2em;
-$textSm: 1em;
-
-h1,h2,h3,h4{
-    font-family: 'Roboto', sans-serif;
-    color: $secondaryColor;
-}
-
 h1{
-    font-size: $textXl;
+    @include Fuentes (Roboto,4em,white)
 }
 
 h2{
-    font-size: $textLg;
+    @include Fuentes (Roboto,3em,white)
 }
 
 h3{
-    font-size: $textMd;
+    @include Fuentes (Roboto,2em,white)
 }
 
 h4{
-    font-size: $textSm;
+    @include Fuentes (Roboto,1em,white)
 }
 
 p{
-    color: $secondaryColor;
+    @include Fuentes (Roboto,1em,white)
 }

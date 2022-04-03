@@ -1,2 +1,20 @@
 $mainColor:black;
 $secondaryColor:white;
+
+
+@mixin Fuentes($font-family, $font-size, $color){
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $color;
+    
+}
+
+.btn-2{
+    @extend .btn;
+    border-radius: 10px;
+}
+
+$fondo:(
+    'uno': black,
+    'dos': white,
+    'tres': cyan,);
