@@ -26,10 +26,18 @@ h4 {
   font-size: 1em;
   color: white; }
 
-p {
+article p {
   font-family: Roboto;
   font-size: 1em;
-  color: white; }
+  color: white;
+  text-align: justify; }
+
+.text-carousel {
+  color: cyan;
+  text-shadow: 2px 2px 2px black; }
+
+.text-carousel-bottom {
+  color: cyan; }
 
 nav {
   background-color: white; }
@@ -82,6 +90,12 @@ body {
   #mkt img {
     border-style: ridge; }
 
+.img-border {
+  border-style: ridge; }
+
+.text-content {
+  width: 600px; }
+
 .clientes-color {
   background-color: black; }
 
@@ -89,6 +103,12 @@ body {
   background-color: cyan;
   color: black;
   font-weight: bold; }
+
+.img_clientes {
+  width: 40%;
+  border-radius: 50%;
+  display: flex;
+  align-content: center; }
 
 /* Informacion duo digital*/
 @media screen and (min-width: 991px) {
@@ -108,8 +128,8 @@ body {
     margin-top: 5px;
     margin-bottom: 100px; }
   .clientes img {
-    width: 100px;
-    height: 250px;
+    width: 50%;
+    height: 90%;
     border-radius: 50%; }
 
 /*clientes*/

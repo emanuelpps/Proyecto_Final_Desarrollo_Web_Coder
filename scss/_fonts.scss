@@ -21,6 +21,16 @@ h4{
     @include Fuentes (Roboto,1em,white)
 }
 
-p{
+article p{
     @include Fuentes (Roboto,1em,white)
+    text-align: justify;
+}
+
+.text-carousel{
+        color: cyan;
+        text-shadow:  2px 2px 2px black;
+}
+
+.text-carousel-bottom{
+    color: cyan;
 }
