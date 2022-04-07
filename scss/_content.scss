@@ -3,6 +3,11 @@ body{
     background-color: map-get($map: $fondo, $key:'uno');
 }
 
+.img-logo{
+    width: 100px;
+    
+}
+
 #mkt{
     background-color: rgb(43, 48, 48);
     img{
