@@ -9,6 +9,7 @@ $secondaryColor:white;
     
 }
 
+
 .btn-2{
     @extend .btn;
     border-radius: 10px;
@@ -18,3 +19,14 @@ $fondo:(
     'uno': black,
     'dos': white,
     'tres': cyan,);
+
+@mixin Content($content){
+     content:$content
+    }
+       
+.cardNosotros{
+    @extend .card;
+    &:hover{
+        cursor: show;
+    }
+}

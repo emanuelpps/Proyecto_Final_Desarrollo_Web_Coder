@@ -1,48 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel='stylesheet' href='../css/main.css'>
-
-    <title>Sumate a nosotros | Duo Digital</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <link rel='stylesheet' href='../css/main.css'>
+      <title>Sumate a nosotros | Duo Digital</title>
     <meta name="description" content="Si te interesa trabajar en nuestra agencia digital, envianos tu curriculum y contanos de vos">
     <meta name="marketing, marketing online, marketing digital, diseño grafico, diseño digital, diseño, estrategias de marketing, redes sociales, ecommerce, google ads, pauta publicitaria, SEO, Optimización de motores de búsqueda, Marketing en motores de búsqueda, gestion de redes sociales, community manager, agencia de marketing, email marketing">
   </head>
-  <body>
+  <body class="background">
+    <script>
+      AOS.init();
+    </script>
 
-<!-- Comienzo Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-light  sticky-top" id="botonera">
-  <div class="container">
-    <a class="navbar-brand" href="../index.html">
-        <img src="../img/duodigitallogo22.png">
+<!--Nav Bar-->
+<nav id="navfonts" class="navbar navbar-dark bg-dark navbar-expand-lg bg-gradient sticky-top" id="botonera">
+  <div class="container menu-mobile">
+    <a class="navbar-brand lgo menu-logo" href="../index.html">
+        <img src="../img/imagen_duo_digital.png" alt="Logo Duo Digital" class="img-logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler menu-bur" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-        <li class="nav-item">
+      <ul class="navbar-nav me-5 mb-2 mb-lg-0 mx-auto">
+        <li class="nav-item hvr-float">
           <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="servicios.html">SERVICIOS</a>
+        <li class="nav-item hvr-float">
+          <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+        <li class="nav-item hvr-float">
+          <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sumate.html">SUMATE</a>
+        <li class="nav-item hvr-float">
+          <a class="nav-link" href="../pages/sumate.html">SUMATE</a>
         </li>
         <li class="nav-item btn-mobile">
-          <a class="nav-link" href="contactanos.html">CONTACTANOS</a>
+          <a class="nav-link" href="../pages/contactanos.html">CONTACTANOS</a>
         </li>
         <li class="nav-item flip-in-hor-top btn-contactanos">
-          <a class="nav-link" href="contactanos.html">
+          <a class="nav-link" href="../pages/contactanos.html">
                 <input type="button" class="btn-2 btn-outline-info" value="CONTACTANOS">
           </a>
         </li>
@@ -50,25 +51,30 @@
     </div>
   </div>
 </nav>
-<!-- Fin Nav Bar-->
+<!--Nav Bar-->
 
-<main>
+<main class="backColor">
   <!--Titulo-->
-  <div class="titulo">
+  <div class="titulo" data-aos-offset="300" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
     <h1 class="h1 text-center pt-5">¡Sumate!</h1>
   </div>
+  <div class="row pb-5 justify-content-center">
+      <article  data-aos-offset="300" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <h4 class="text-center">
+              Completá el formulario
+          </h4>
+      </article>
+      
 <!--Titulo-->
 
 <!-- Comienza Sumate -->
-<section id="mkt mx-auto" class="container-fluid">
-    <div class="row pb-5 justify-content-center">
-        <article>
-            <h4 class="text-center">
-                Completá el formulario
-            </h4>
-        </article>
-        <article class="mt-5 w-50">
-            <p class="text-center">¿Te apetece entrar a trabajar en una agencia dinámica y con muy buen ambiente de trabajo? ¿Quieres demostrar todo lo que sabes de diseño, programación, redes, seo y todo este mundo del marketing? Estamos en busca de nuevos talentos para incorporar al equipo, y nos encantaría conocerte un poco mejor. Envíanos tu CV en este formulario y te prometemos revisarlo con el cariño y atención que se merece. Nos vemos ????</p>
+<section id="mkt mx-auto" class="d-flex justify-content-center container-fluid">
+  <article class="mt-5 w-50" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <p class="text-center"><strong>¿Te apetece entrar a trabajar en una agencia dinámica 
+              y con muy buen ambiente de trabajo?</strong></p>
+              <p><strong>¿Querés demostrar lo que sabes de diseño, programación, redes, SEO y todo este mundo del marketing?</strong></p>
+              <p>Estamos en busca de nuevos talentos para incorporar al equipo, y nos encantaría conocerte un poco mejor. Envíanos tu CV en este formulario
+               y te prometemos revisarlo con el cariño y atención que se merece.</p>
         </article>
     </div>
 </section>
@@ -76,77 +82,111 @@
 <!-- Termina Sumate -->
 
 
-<!-- Comienza Formulario -->
-<section class="container mt-5 w-75">
+<!--Formulario-->
+<form>
+<section class="container mt-3 w-75" data-aos-offset="50" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
   <div class="form-floating ms-5 me-5 mb-3">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name">
+    <input type="name" class="form-control" id="floatingInput" placeholder="name">
       <label for="floatingInput">Nombre</label>
   </div>
   <div class="form-floating ms-5 me-5 mb-3">
-    <input type="password" class="form-control" id="floatingInput" placeholder="apellido">
+    <input type="name" class="form-control" id="floatingInput" placeholder="name">
       <label for="floatingInput">Apellido</label>
   </div>
   <div class="form-floating ms-5 me-5 mb-3">
-    <input type="password" class="form-control" id="floatingInput" placeholder="edad">
+    <input type="age" class="form-control" id="floatingInput" placeholder="age">
       <label for="floatingInput">Edad</label>
   </div>
-  <form class="form-floating ms-5 me-5 mb-3">
+  <div class="form-floating ms-5 me-5 mb-3">
     <input type="email" class="form-control" id="floatingInputValue" placeholder="nombre@ejemplo.com" value="nombre@ejemplo.com">
     <label for="floatingInputValue">Email</label>
-  </form>
+  </div>
   <div class="input-group ms-5 me-5 mb-3">
     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Adjuntar CV</button>
     <ul class="dropdown-menu dropdown-menu-end">
-      <li><a class="dropdown-item" href="#">Linkedin</a></li>
-      <li><a class="dropdown-item" href="#">Subir Archivo</a></li>
-      <li><a class="dropdown-item" href="#">Link</a></li>
-    </ul>
+      <li><label for="basic-url">Perfil de Linkedin</label>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">https://www.linkedin.com/in/</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div></li>
+      <li> <input type="file" class="custom-file-input" id="inputGroupFile01">
+        <label class="custom-file-label" for="inputGroupFile01"></label></li>
+      </ul>
   </div>
   <div class="form-floating ms-5 me-5 mb-3">
     <textarea class="form-control" placeholder="Comentarios" id="floatingTextarea"></textarea>
     <label for="floatingTextarea">Contanos de vos</label>
   </div>
-  <div class="text-center">
+  <div class="text-center pb-5" data-aos="fade-right" data-aos-offset="50" data-aos-easing="ease-in-sine">>
     <input class="btn btn-primary" type="submit" value="ENVIAR">
     <input class="btn btn-primary" type="reset" value="BORRAR">
   </div>
 </section>
-<!-- Fin Formulario -->
+</form>
+<!--Formulario-->
 </main>
 
-<!-- Comienzo Footer -->
-<footer>
-
-  <section>
-    <div>
-      <h3 class="text-center mt-5 pt-5"> Seguinos en Redes:</h3>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Duo Digital
+            </h6>
+            <p>
+              Hacemos crecer tu marca y potenciamos su presencia en el mundo digital.
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <p>
+              <a class="text-white" href="../index.html">Inicio</a>
+            </p>
+            <p>
+              <a class="text-white" href="../pages/servicios.html">Servicios</a>
+            </p>
+            <p>
+              <a class="text-white" href="../pages/nosotros.html">Nosotros</a>
+            </p>
+            <p>
+              <a class="text-white" href="../pages/sumate.html">Sumate</a>
+            </p>
+            <p>
+              <a class="text-white" href="../pages/contactanos.html">Contacto</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+            <p><i class="fas fa-home mr-3"></i> Tres Arroyos 1600, Gral. Roca, Río Negro</p>
+            <p><i class="fas fa-envelope mr-3"></i> duodigitalroca@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> 0298562369</p>
+            <p><i class="fas fa-print mr-3"></i> 0298562369</p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Seguinos</h6>
+            <a class="btn btn-footer rounded-circle" href="https://www.facebook.com/" target="_blank" role="button">
+              <img src="../img/facebook.svg" class="mr-md-5 mr-3 p-1 " alt="Logo de Facebook"></a>
+            <a class="btn btn-footer rounded-circle" href="https://www.instagram.com/" target="_blank" role="button">
+              <img src="../img/instagram.svg" class="mr-md-5 mr-3 p-1" alt="Logo de instagram"></i></a>
+            <a class="btn btn-footer rounded-circle" href="https://www.linkedin.com/" target="_blank" role="button">
+              <img src="../img/linkedin.svg" class="mr-md-5 mr-3 p-1" alt="Logo de Linkedin"></i></a></div>
+        </div>
+      </section>
     </div>
-  </section>
-<div class="col-md-12 py-5 text-center">
-  <div class="mb-5 ">
-
-    <!-- Facebook -->
-    <a class="fb-ic" href="https://www.facebook.com/Duodigitalroca">
-      <img src="../img/facebook.svg" class="mr-md-5 mr-3 p-4 ">
-    </a>
-    
-    <!--Linkedin -->
-    <a class="li-ic" href="https://www.linkedin.com/company/duo-digital-roca/">
-      <img src="../img/linkedin.svg" class="mr-md-5 mr-3 p-4">
-    </a>
-
-    <!--Instagram-->
-    <a class="ins-ic" href="https://www.instagram.com/duodigitalroca/">
-      <img src="../img/instagram.svg" class="mr-md-5 mr-3 p-4">
-    </a>
-   
-  </div>
-</div>
-
+    <div
+         class="text-center p-5"
+         style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright:
+      <a class="text-white" href="../pages/404.html">duodigital.com.ar</a>
+    </div>
   </footer>
-
-
-<!-- Fin Footer -->
+<!-- Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

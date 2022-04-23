@@ -5,6 +5,10 @@
     font-family: 'Roboto';
 }
 
+#navfonts ul li a{
+    color: white;
+}
+
 h1{
     @include Fuentes (Roboto,3.5em,white)
 }
@@ -21,13 +25,17 @@ h4{
     @include Fuentes (Roboto,1em,white)
 }
 
+nav div ul li a{
+    color: white;
+}
+
 article p{
     @include Fuentes (Roboto,1em,white)
     text-align: justify;
 }
 
 .text-carousel{
-        color: cyan;
+        color: $secondaryColor;
         text-shadow:  2px 2px 2px black;
 }
 

@@ -1,18 +1,41 @@
 /*body*/
+
 body{
-    background-color: map-get($map: $fondo, $key:'uno');
+    overflow-x: hidden;
 }
 
-.img-logo{
-    width: 100px;
+/*body*/
+
+/*main*/
+.backColor{
+    background-color: map-get($map: $fondo, $key:'uno');
     
+}
+/*main*/
+
+/*video*/
+
+#videoLogo{
+    width: auto;
+    background-color: $secondaryColor;
+}
+
+.video-logo{
+  width: 37%;
+
+    
+}
+/*video*/
+
+
+
+.mkt-background{
+    background-color: black;
 }
 
 #mkt{
-    background-color: rgb(43, 48, 48);
-    img{
-        border-style:ridge
-    }
+    background-color: black;
+    
 }
 
 .img-border{
@@ -28,11 +51,15 @@ body{
     background-color: black;
 }
 
+/*botones*/
 .btn{
     background-color: cyan;
     color: black;
     font-weight: bold;
 }
+/*botones*/
+
+/*clientes*/
 
 .img_clientes{
     width: 40%;
@@ -42,31 +69,8 @@ body{
     
 }
 
-
-/* Informacion duo digital*/
-
-
-  @media screen and (min-width: 991px){
-      .article-mobile{
-         display: none;
-      }
-      
-  }
-
-  @media screen and (max-width: 991px){
-    .article-desktop{
-       display: none;
-    }
-    
-}
-
-/* informacion duo digital*/
-
-/*clientes*/
-
-
 .clientes{
-    background-color: rgb(43, 48, 48);
+    background-color: black;
     margin-top: 60px;
     h2{
         margin-top: 5px;
@@ -80,26 +84,113 @@ body{
     }
 }
  
-
+.img-nosotros{
+    width: 100%;
+    opacity: 0.8;
+}
 /*clientes*/
 
-/*fin de body*/
+/*cards*/
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+              -15px -15px 30px rgb(60, 60, 60);
+              &:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+               
+              }                      
+ }
+
+ .card-texto{
+    color: white;
+}
 
 
-
-/*que hacemos*/
+/*cards*/
 
 .img-embudo{
     width: 500px;
 }
 
-/*que hacemos*/
-
-
-/*donde encontrar a tus clientes*/
-
 #mkt-1{
     background-color: rgb(26, 139, 157);
 }
+ /*footer*/
+ 
+footer{
+    background-color: #212121;
+}
 
-/*donde encontrar a tus clientes*/
+ .btn-footer{
+    background-color:map-get($map: $fondo, $key:'dos');
+  }
+ /*footer*/
+
+
+ /*mobile*/
+
+ @media screen and (min-width: 991px){
+     .article-mobile{
+         display: none;
+     }
+     .article-desktop{
+         display: show;
+     }
+ }
+ 
+ @media screen and (max-width: 991px){
+    .img-logo{
+       width: 90%;
+    }
+    .article-mobile{
+       display: show;
+    }
+    .article-desktop{
+        display: none;
+     }
+     .card-mobile{
+        width: 45%;
+        padding-left: 5%;
+        margin-bottom: 10%;
+     }
+    
+}
+
+@media screen and (max-width: 480px){
+    .img-logo{
+       width: 100%;
+    }
+    .menu-logo{
+        width: 30%;
+    }
+    .article-mobile{
+        display: show;
+     }
+     .article-desktop{
+         display: none;
+      }
+    .card-mobile{
+        height: 100%;
+        width: 80%;
+        padding-left: 5%;
+        margin-bottom: 10%;
+     }
+     .img-404{
+         width: 70%;
+     }
+
+     
+}
+/*mobile*/
+
+/*404*/
+    .NotFound{
+        background-color:map-get($map: $fondo, $key:'dos');
+        #text404{
+            color:map-get($map: $fondo, $key:'uno');
+        }
+    }
+/*404*/
