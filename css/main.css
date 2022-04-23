@@ -117,8 +117,11 @@ nav {
     display: none; } }
 
 /*body*/
-body {
+html, body {
   overflow-x: hidden; }
+
+body {
+  position: relative; }
 
 /*body*/
 /*main*/
