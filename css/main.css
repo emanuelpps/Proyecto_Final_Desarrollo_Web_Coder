@@ -117,9 +117,6 @@ nav {
     display: none; } }
 
 /*body*/
-html, body {
-  overflow-x: hidden; }
-
 body {
   position: relative; }
 
@@ -127,6 +124,9 @@ body {
 /*main*/
 .backColor {
   background-color: black; }
+
+main {
+  overflow-x: hidden; }
 
 /*main*/
 /*video*/
@@ -219,8 +219,6 @@ footer {
     display: show; } }
 
 @media screen and (max-width: 991px) {
-  body {
-    overflow-x: hidden; }
   .img-logo {
     width: 90%; }
   .article-mobile {
@@ -233,8 +231,6 @@ footer {
     margin-bottom: 10%; } }
 
 @media screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden; }
   .img-logo {
     width: 100%; }
   .menu-logo {

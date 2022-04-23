@@ -1,8 +1,5 @@
 /*body*/
 
-html, body {
-    overflow-x: hidden;
-  }
   body {
     position: relative
   }
@@ -13,6 +10,10 @@ html, body {
     background-color: map-get($map: $fondo, $key:'uno');
     
 }
+
+main {
+    overflow-x: hidden;
+  }
 /*main*/
 
 /*video*/
@@ -28,8 +29,6 @@ html, body {
     
 }
 /*video*/
-
-
 
 .mkt-background{
     background-color: black;
@@ -144,9 +143,6 @@ footer{
  }
  
  @media screen and (max-width: 991px){
-    body{
-        overflow-x: hidden;
-    }
     .img-logo{
        width: 90%;
     }
@@ -165,9 +161,6 @@ footer{
 }
 
 @media screen and (max-width: 480px){
-    body{
-        overflow-x: hidden;
-    }
     .img-logo{
        width: 100%;
     }
