@@ -142,6 +142,9 @@ footer{
  }
  
  @media screen and (max-width: 991px){
+    body{
+        overflow-x: hidden;
+    }
     .img-logo{
        width: 90%;
     }
@@ -160,6 +163,9 @@ footer{
 }
 
 @media screen and (max-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
     .img-logo{
        width: 100%;
     }
