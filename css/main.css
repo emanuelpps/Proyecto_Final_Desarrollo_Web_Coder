@@ -126,7 +126,8 @@ body {
   background-color: black; }
 
 main {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
 
 /*main*/
 /*video*/
@@ -216,7 +217,13 @@ footer {
   .article-mobile {
     display: none; }
   .article-desktop {
-    display: show; } }
+    display: show; }
+  .accordion-mobile {
+    padding-right: 20%;
+    padding-left: 20%; }
+  form {
+    margin-right: 10%;
+    margin-left: 10%; } }
 
 @media screen and (max-width: 991px) {
   .img-logo {
